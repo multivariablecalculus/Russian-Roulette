@@ -1,4 +1,6 @@
+# =======================
 # Unity generated files
+# =======================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,25 +8,52 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+UserSettings/
 
+# =======================
 # Visual Studio / Rider
+# =======================
 .vscode/
 .idea/
 *.csproj
 *.sln
-*.user
-*.unityproj
-*.pidb
 *.suo
+*.user
+*.userprefs
+*.pidb
 *.svd
 *.pdb
-*.mdb
 *.opendb
 *.VC.db
+*.VC.VC.opendb
 
-# OS-generated
+# ================
+# Build results
+# ================
+[Dd]ebug*/
+[Rr]elease*/
+*.dll
+*.exe
+
+# ================
+# OS Generated
+# ================
 .DS_Store
 Thumbs.db
 
-# Crashlytics generated
-crashlytics-build.properties
+# ================
+# Rider/Resharper/JetBrains
+# ================
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# ================
+# Unity asset store tools
+# ================
+Assets/AssetStoreTools*
+
+# ================
+# JetBrains Rider
+# ================
+.idea/
